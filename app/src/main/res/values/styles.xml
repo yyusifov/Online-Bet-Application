@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="input_style">
+        <item name="android:layout_width">210dp</item>
+        <item name="android:layout_height">38dp</item>
+        <item name="android:layout_marginTop">376dp</item>
+        <item name="android:backgroundTint">#F4F4F4</item>
+    </style>
+</resources>

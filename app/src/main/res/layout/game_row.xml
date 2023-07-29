@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="350dp"
+    android:layout_height="150dp"
+    android:layout_marginLeft="30dp"
+    android:layout_marginTop="5dp"
+    android:layout_marginBottom="30dp"
+    android:backgroundTint="#E3E3E3"
+    app:cardCornerRadius="52dp"
+    app:cardElevation="10dp"
+    app:strokeColor="#000000"
+    app:strokeWidth="1dp">
+
+    <TextView
+        android:id="@+id/home_team"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_gravity="start"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="50dp"
+        android:fontFamily="@font/inter_bold"
+        android:text="TextView"
+        android:textColor="#000000"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/away_team"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_gravity="right|top"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="30dp"
+        android:fontFamily="@font/inter_bold"
+        android:text="TextView"
+        android:textColor="#000000"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/home_team_win_odd"
+        android:layout_width="75dp"
+        android:layout_height="48dp"
+        android:layout_gravity="bottom|left"
+        android:layout_marginLeft="30dp"
+        android:layout_marginBottom="15dp"
+        android:backgroundTint="#F0F0E4"
+        android:fontFamily="@font/inter_medium"
+        android:text="1.25"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        app:cornerRadius="4dp"
+        app:strokeColor="#000000"
+        app:strokeWidth="1dp" />
+
+    <Button
+        android:id="@+id/away_team_win_odd"
+        android:layout_width="75dp"
+        android:layout_height="48dp"
+        android:layout_gravity="bottom|right"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="15dp"
+        android:backgroundTint="#F0F0E4"
+        android:fontFamily="@font/inter_medium"
+        android:text="2.10"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        app:cornerRadius="4dp"
+        app:strokeColor="#000000"
+        app:strokeWidth="1dp" />
+
+    <Button
+        android:id="@+id/draw_odd"
+        android:layout_width="75dp"
+        android:layout_height="48dp"
+        android:layout_gravity="bottom|center"
+        android:layout_marginBottom="15dp"
+        android:backgroundTint="#F0F0E4"
+        android:fontFamily="@font/inter_medium"
+        android:text="2.50"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        app:cornerRadius="4dp"
+        app:strokeColor="#000000"
+        app:strokeWidth="1dp" />
+
+    <TextView
+        android:id="@+id/sport_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|top"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/inter_extrabold"
+        android:text="TextView"
+        android:textColor="#000000"
+        android:textSize="16sp" />
+
+</com.google.android.material.card.MaterialCardView>

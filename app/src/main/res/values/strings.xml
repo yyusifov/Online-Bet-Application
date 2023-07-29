@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Online Bet Application</string>
+    <string name="appName">HalalBet</string>
+    <string name="signUp">Sign Up</string>
+    <string name="log_in_text">Log In</string>
+    <string name="sign_up_txt">Sign Up</string>
+    <string name="name_txt">Name</string>
+    <string name="email_txt">Email</string>
+    <string name="password_txt">Password</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="today_s_games">Today\'s Games</string>
+    <string name="total_amount_that_can_be_earned">Total amount that can be earned:</string>
+    <string name="amount">0.0$</string>
+    <string name="the_amount_that_has_spent_on_bet">The amount that has spent on bet:</string>
+    <string name="trash_bin">delete_bet</string>
+    <string name="search_button">Search</string>
+</resources>

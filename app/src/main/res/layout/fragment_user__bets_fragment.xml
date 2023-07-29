@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".User_Bets_fragment">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view2"
+        android:layout_width="match_parent"
+        android:layout_height="615dp"
+        android:background="#66AEE3"
+        android:paddingBottom="270dp" />
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="450dp"
+        android:layout_height="450dp"
+        android:layout_marginLeft="-18dp"
+        android:layout_marginTop="330dp"
+        android:backgroundTint="#FF9900"
+        app:cardCornerRadius="80dp"
+        app:strokeColor="#000000"
+        app:strokeWidth="1dp">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="30dp"
+            android:layout_marginBottom="318dp"
+            android:fontFamily="@font/inika"
+            android:text="Total gain:"
+            android:textColor="#000000"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/possible_amount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|right"
+            android:layout_marginRight="40dp"
+            android:layout_marginBottom="316dp"
+            android:fontFamily="@font/kadwa_bold"
+            android:hint="@string/amount"
+            android:textColor="#000000"
+            android:textColorHint="#000000"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="30dp"
+            android:layout_marginBottom="380dp"
+            android:fontFamily="@font/inika"
+            android:text="Bet money:"
+            android:textColor="#000000"
+            android:textSize="22sp" />
+
+        <EditText
+            android:id="@+id/betAmount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|right"
+            android:layout_marginRight="40dp"
+            android:layout_marginBottom="365dp"
+            android:backgroundTint="#FF9900"
+            android:fontFamily="@font/kadwa_bold"
+            android:hint="Amount"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            android:textAlignment="textEnd"
+            android:textColor="#000000"
+            android:textColorHint="#000000"
+            android:textSize="22sp" />
+
+        <Button
+            android:id="@+id/bet_button"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:layout_gravity="bottom|right"
+            android:layout_marginRight="29dp"
+            android:layout_marginBottom="250dp"
+            android:backgroundTint="#000000"
+            android:text="Add bet"
+            android:textAlignment="textStart"
+            android:textSize="16sp" />
+
+    </com.google.android.material.card.MaterialCardView>
+</FrameLayout>

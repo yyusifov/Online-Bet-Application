@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/container2"
+    android:layout_width="match_parent"
+    android:layout_height="83.5dp"
+    android:layout_marginBottom="10dp"
+    android:backgroundTint="#FF5C00"
+    app:cardCornerRadius="9dp"
+    app:cardElevation="0dp">
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/container1"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginBottom="20dp"
+        app:cardCornerRadius="9dp"
+        app:cardElevation="15dp"
+        app:strokeColor="#FF5C00"
+        app:strokeWidth="1dp">
+
+        <TextView
+            android:id="@+id/hm_team_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:text="TextView"
+            android:textColor="#FF0000" />
+
+        <TextView
+            android:id="@+id/wy_team_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="50dp"
+            android:text="TextView"
+            android:textColor="#FF0000" />
+
+        <TextView
+            android:id="@+id/wy_score_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|end"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="12dp"
+            android:text="TextView"
+            android:textColor="#FF0000" />
+
+        <TextView
+            android:id="@+id/hm_score_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|end"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="12dp"
+            android:text="TextView"
+            android:textColor="#FF0000" />
+
+
+    </com.google.android.material.card.MaterialCardView>
+</androidx.cardview.widget.CardView>

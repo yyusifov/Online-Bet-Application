@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/live_games"
+        android:icon="@drawable/ic_baseline_sports_24"
+        android:title="Games"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/user_bets"
+        android:icon="@drawable/ic_baseline_local_atm_24"
+        android:title="My Bets"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/live_score"
+        android:icon="@drawable/ic_baseline_scoreboard_24"
+        android:title="Live score"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/user_info"
+        android:icon="@drawable/ic_baseline_person_outline_24"
+        android:title="Profile"
+        app:showAsAction="always" />
+</menu>

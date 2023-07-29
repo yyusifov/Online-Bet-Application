@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="743dp"
+        tools:context=".MainActivity">
+
+        <Button
+            android:id="@+id/log_In_Button"
+            android:layout_width="215dp"
+            android:layout_height="51dp"
+            android:elevation="5dp"
+            android:fontFamily="@font/lalezar"
+            android:stateListAnimator="@null"
+            android:text="@string/log_in_text"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            app:backgroundTint="#0E7ED2"
+            app:cornerRadius="5dp"
+            app:layout_constraintBottom_toTopOf="@+id/sign_Up_Button"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.972" />
+
+        <Button
+            android:id="@+id/sign_Up_Button"
+            android:layout_width="215dp"
+            android:layout_height="51dp"
+            android:layout_marginTop="516dp"
+            android:backgroundTint="#FFFFFF"
+            android:elevation="5dp"
+            android:fontFamily="@font/lalezar"
+            android:stateListAnimator="@null"
+            android:text="@string/signUp"
+            android:textColor="#000000"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            app:cornerRadius="5dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.503"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:strokeColor="#000000"
+            app:strokeWidth="1dp" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="262dp"
+            android:layout_height="262dp"
+            android:layout_marginTop="16dp"
+            android:scaleType="fitXY"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.505"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/_3034" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="152dp"
+            android:fontFamily="@font/kavoon"
+            android:text="Bet"
+            android:textColor="#000000"
+            android:textSize="25sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="112dp"
+            android:fontFamily="@font/kavoon"
+            android:text="Halal"
+            android:textColor="#000000"
+            android:textSize="35sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:fontFamily="@font/kavoon"
+            android:text="Hello!"
+            android:textColor="#000000"
+            android:textSize="36sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.502"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="219dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="96dp"
+            android:layout_marginEnd="96dp"
+            android:fontFamily="@font/kavoon"
+            android:text="Honored to accommodate you to the best place to bet."
+            android:textAlignment="center"
+            android:textSize="12sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
